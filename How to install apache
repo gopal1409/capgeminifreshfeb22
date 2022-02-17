@@ -6,6 +6,12 @@ chkconfig httpd on
 sh -c "echo 'Hello from gopal webserver' > /var/www/html/index.html"
 cat /var/www/html/index.html
 curl localhost
+#how to add a external web page
+ cd /var/www/html
+wget https://www.free-css.com/assets/files/free-css-templates/download/page275/hangover.zip
+ls
+unzip hangover.zip
+ls
 
 #explanation
 #we are going to install a packgae in linux
