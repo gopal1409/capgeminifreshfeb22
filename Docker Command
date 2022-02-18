@@ -65,6 +65,7 @@
    41  docker volume ls
    42  docker volume inspect mysql-db
    43  cd /var/lib/docker/volumes/mysql-db/_data
+   cd /root
 
    
 
