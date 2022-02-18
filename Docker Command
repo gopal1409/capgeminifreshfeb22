@@ -8,4 +8,11 @@
     #apache image deployment
      12  docker container run --publish 82:80 --detach httpd
    13  docker ps
+   
+   #how to check the logs of a container
+    11  docker ps
+   12  docker logs
+   13  docker logs 91d6ae7dac92
+   14  docker logs 99f
+
 
