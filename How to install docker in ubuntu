@@ -10,3 +10,14 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 docker --version
+
+
+#if you get disconnecter
+#close the gitbash open a new gitbash
+# goto download folder
+cd Downloads
+#then do ssh
+ssh -i keypair.pem ubuntu@publicip
+#then do sudo -i to become a root user
+sudo -i
+docker
