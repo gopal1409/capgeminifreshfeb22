@@ -27,6 +27,7 @@
    36  docker ps
    37  docker container top webhost
    38  docker container stats
+   #after you run docker container stat command it will show you running report to come out of it press Ctrl c
 
 
 
