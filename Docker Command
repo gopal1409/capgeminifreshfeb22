@@ -4,3 +4,8 @@
     4  docker ps
     5  docker images
     6  docker container run --publish 81:80 --detach nginx
+    
+    #apache image deployment
+     12  docker container run --publish 82:80 --detach httpd
+   13  docker ps
+
