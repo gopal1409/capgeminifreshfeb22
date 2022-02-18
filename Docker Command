@@ -77,6 +77,10 @@
    38  docker volume ls
    39  docker ps
    40  docker container inspect mysql
+   docker run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -v mysql-db:/var/lib/mysql mysql:8
+   docker ps
+   docker container inspect mysql
+   
    
 
 
