@@ -31,5 +31,12 @@
    38  docker container stats
    #after you run docker container stat command it will show you running report to come out of it press Ctrl c
 
+#we will launch an mysql database container we will check the logs and find out the password to loging to the db
+#then using docker exec command we will loging to the database container. 
+#finally we will create a database inside the db we will create an table insert some data.
+   42  docker run -d --name db -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql
+   43  docker ps
+   44  docker exec -it db bash
+   #to come out of the container type exit
 
 
