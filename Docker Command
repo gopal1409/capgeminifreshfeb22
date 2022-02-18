@@ -58,4 +58,13 @@
    #if you want to know more information about your container
    docker container inpect containerid
    
+   #how to create an persistent volume
+    38  docker run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -v mysql-db:/var/lib/mysql mysql:8.0.28-oracle
+   39  docker ps
+   40  docker container inspect mysql
+   41  docker volume ls
+   42  docker volume inspect mysql-db
+   43  cd /var/lib/docker/volumes/mysql-db/_data
+
+   
 
