@@ -66,6 +66,19 @@
    42  docker volume inspect mysql-db
    43  cd /var/lib/docker/volumes/mysql-db/_data
    cd /root
+   
+   #how to upgrade a container
+     32  docker ps
+   33  docker stop mysql
+   34  docker ps
+   35  docker ps -a
+   36  docker rm mysql
+   37  docker ps -a
+   38  docker volume ls
+   39  docker ps
+   40  docker container inspect mysql
+   
+
 
    
 
