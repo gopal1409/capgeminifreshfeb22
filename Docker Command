@@ -55,4 +55,7 @@
    #again type exit to come out of container
    exit
    
+   #if you want to know more information about your container
+   docker container inpect containerid
+   
 
