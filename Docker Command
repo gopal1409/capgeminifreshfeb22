@@ -25,7 +25,9 @@
    #we launch a new container with a custom name and try to see how much resource utilization it is doing. cpu/ram/storage/networking
     35  docker container run -p 84:80 -d --name webhost nginx
    36  docker ps
+   #this will give you a brief monitoring information about a single container
    37  docker container top webhost
+   #this will give you running monitoring information about all your container
    38  docker container stats
    #after you run docker container stat command it will show you running report to come out of it press Ctrl c
 
