@@ -14,5 +14,12 @@
    12  docker logs
    13  docker logs 91d6ae7dac92
    14  docker logs 99f
+#how to stop and terminate your containers
+  21  docker ps
+   22  docker rm 91d
+   23  docker stop 91d
+   24  docker ps -a
+   25  docker rm 91d
+   26  docker ps -a
 
 
