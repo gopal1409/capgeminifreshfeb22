@@ -38,5 +38,21 @@
    43  docker ps
    44  docker exec -it db bash
    #to come out of the container type exit
-
+#how to loging to mysql prompt
+ 50  docker ps
+   51  docker logs db
+   #it will show you the password in logs format ( GENERATED ROOT PASSWORD: aXusahb7kiezudohgh4widohthie8eis)
+   52  docker exec -it db bash
+   #once you login inside the container
+   mysql -u root -p
+   #copy the password from log file and paste it then enter
+   #below are mysql command
+   show databases;
+   create database employee;
+   show databases;
+   #finally to exit from mysql prompt
+   exit
+   #again type exit to come out of container
+   exit
+   
 
