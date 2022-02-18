@@ -21,5 +21,12 @@
    24  docker ps -a
    25  docker rm 91d
    26  docker ps -a
+   
+   #we launch a new container with a custom name and try to see how much resource utilization it is doing. cpu/ram/storage/networking
+    35  docker container run -p 84:80 -d --name webhost nginx
+   36  docker ps
+   37  docker container top webhost
+   38  docker container stats
+
 
 
