@@ -5,3 +5,8 @@
    62  cd springboot-chat-app/
    63  ls
    64  mvn clean package
+   ls
+   cd target
+   ls
+   cd ..
+   
