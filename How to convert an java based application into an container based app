@@ -2,3 +2,13 @@
    2  javac
     3  apt install default-jdk
     4  java --version
+    #we will create a project folder and put a simple java application inside it and compile it. 
+     7  mkdir javaapp
+    8  cd javaapp/
+    9  nano HelloWorld.java
+    #copy the helloworld application from the site. 
+    #then past it. Press Ctrl x then y then enter
+   10  cat HelloWorld.java
+   11  javac HelloWorld.java
+   12  java HelloWorld
+
