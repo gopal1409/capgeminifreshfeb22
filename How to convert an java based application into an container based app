@@ -11,4 +11,15 @@
    10  cat HelloWorld.java
    11  javac HelloWorld.java
    12  java HelloWorld
+#now we will conver the application into a jar file
+
+   18  nano manifest.txt
+   Manifest-Version: 1.0
+   Created-By: Me
+   Main-Class: HelloWorld
+   19  ls
+   20  cat manifest.txt
+   21  jar cfm HelloWorld.jar manifest.txt HelloWorld.class
+   22  ls
+   23  java -jar HelloWorld.jar
 
