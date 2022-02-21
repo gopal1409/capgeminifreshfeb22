@@ -23,3 +23,16 @@
    22  ls
    23  java -jar HelloWorld.jar #we will run the jar app
 #now we will convert my application into an container based image. 
+  4  nano dockerfile
+FROM openjdk:11
+WORKDIR /
+ADD HelloWorld.jar HelloWorld.jar
+EXPOSE 8080
+CMD java -jar HelloWorld.jar
+
+    5  cat dockerfile
+    6  docker build -t javaapp:v1 .
+    
+    7  docker images
+    8  docker run javaapp:v1
+
