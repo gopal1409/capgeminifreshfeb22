@@ -1,1 +1,4 @@
-
+#we need to verify that in my linux machine we have java is there or not
+   2  javac
+    3  apt install default-jdk
+    4  java --version
