@@ -33,6 +33,9 @@
 docker login
 docker push gopal1409/chatapp
 
+#to see the logs
+kubectl logs my-chat-app
+
 #we need to run the image in k8s
 20  kubectl get pod
    21  kubectl run my-chat-app --image gopal1409/chatapp
