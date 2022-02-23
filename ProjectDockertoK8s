@@ -40,3 +40,6 @@ docker push gopal1409/chatapp
 
 #to verify the pod is running my image
 kubectl describe pod my-chat-app
+
+## usermod -aG docker ubuntu
+
