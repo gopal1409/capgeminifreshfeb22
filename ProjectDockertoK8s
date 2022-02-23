@@ -49,4 +49,9 @@ kubectl describe pod my-chat-app
  69  kubectl get pod
    70  kubectl expose pod my-chat-app --type=NodePort --port=8080 --name=my-chatapp-service
    71  kubectl get svc
+#how to delete the pod
+  78  kubectl get pod
+   79  kubectl delete pod my-chat-app
+   80  kubectl get pod
+   81  kubectl delete pod my-first-pod
 
