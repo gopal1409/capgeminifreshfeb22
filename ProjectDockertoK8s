@@ -11,4 +11,13 @@
    34  java --version
    35  apt install maven
    36  mvn version
+#we will download out application from git hub complie it using maven 
+
+
+#once we got the jar file we will convert the same into an container based image. 
+
+
+#we will do docker login we will upload the image in hub.docker.com
+
+
 
