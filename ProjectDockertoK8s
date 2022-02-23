@@ -42,4 +42,8 @@ docker push gopal1409/chatapp
 kubectl describe pod my-chat-app
 
 ## usermod -aG docker ubuntu
+#how to expose your application outside kubernetes cluster
+ 69  kubectl get pod
+   70  kubectl expose pod my-chat-app --type=NodePort --port=8080 --name=my-chatapp-service
+   71  kubectl get svc
 
