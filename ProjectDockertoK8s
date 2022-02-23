@@ -30,5 +30,6 @@
 
 #we will do docker login we will upload the image in hub.docker.com
 
-
+docker login
+docker push gopal1409/chatapp
 
