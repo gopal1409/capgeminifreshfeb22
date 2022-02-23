@@ -38,4 +38,5 @@ docker push gopal1409/chatapp
    21  kubectl run my-chat-app --image gopal1409/chatapp
    22  kubectl get pod
 
-
+#to verify the pod is running my image
+kubectl describe pod my-chat-app
