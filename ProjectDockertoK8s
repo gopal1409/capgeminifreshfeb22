@@ -14,7 +14,7 @@
 #we will download out application from git hub complie it using maven 
  1  git clone  https://github.com/gopal1409/springboot-chat-app.git
     2  cd springboot-chat-app/
-    3  mvn clean install
+    3  mvn clean package
     4  cd target/
     5  ls
     6  cd ..
